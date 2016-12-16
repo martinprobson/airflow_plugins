@@ -1,0 +1,13 @@
+*.class
+*.html
+*.css
+*.log*
+doc
+package-list
+class-use
+index-files
+/.project
+/.classpath
+junit
+/bin/
+*.py[cod]
