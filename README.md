@@ -1,7 +1,10 @@
 # Python - Airflow - Job Scheduler Plugins
 
 ## Summary
-This repo contains an Airflow plugin to make it easier to execute Hql scripts via an Airflow task.
+This repo contains an [Apache Airflow](https://airflow.apache.org/) plugin to make it easier to execute Hql scripts via an Airflow task.
+
+### Installation
+Drop the `airflow_plugins` folder into the location defined by `plugins_foler` in `airflow.cfg`
 
 ### Example Usage
 Set up an example DAG with `ExecHqlOperator` provided by this plugin.
