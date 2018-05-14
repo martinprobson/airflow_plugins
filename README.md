@@ -4,7 +4,7 @@
 This repo contains an [Apache Airflow](https://airflow.apache.org/) plugin to make it easier to execute Hql scripts via an Airflow task.
 
 ### Installation
-Drop the `airflow_plugins` folder into the location defined by `plugins_foler` in `airflow.cfg`
+Drop the `airflow_plugins` folder into the location defined by `plugins_folder` in `airflow.cfg`
 
 ### Example Usage
 Set up an example DAG with `ExecHqlOperator` provided by this plugin.
